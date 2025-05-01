@@ -1,0 +1,14 @@
+body {
+  background-size: cover;
+}
+#page {
+  width: 1120px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 80px auto;
+  margin: 80px auto;
+}
+
+img {
+  border-radius: 24px;
+}
