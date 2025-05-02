@@ -1,10 +1,10 @@
 * {
-  margin-left: 0;
+  margin-left: 0px;
   padding-left: 0;
 }
 
 :root {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
   margin: 80px auto;
 }
 
-ol li {
+section ol li {
   margin-left: 15px;
   padding-left: 0;
   list-style-position: inside;
@@ -32,6 +32,10 @@ section h2 {
   margin-top: 20px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 #destinoBusan {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -43,11 +47,20 @@ section h2 {
 
 div span {
   margin-top: 30px;
-  color: red;
+  color: #e1624f;
+  margin-left: 0;
 }
+
+/* .top {
+  margin-left: 0;
+} */
 
 div h1 {
   margin-bottom: 40px;
+}
+
+.p1 {
+  margin-left: 25px;
 }
 
 img {
@@ -61,4 +74,22 @@ img {
 
 #templo {
   margin-top: 48px;
+}
+
+#rodape {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+footer img {
+  vertical-align: middle;
+}
+
+ol h2 {
+  margin-left: 35px;
+  padding-left: 0;
 }
